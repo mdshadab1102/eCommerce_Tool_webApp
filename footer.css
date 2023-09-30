@@ -1,0 +1,97 @@
+footer{
+	padding: 0 3rem;
+}
+#footer1{
+	background:  #1d446e;
+}
+#footer2{
+	background: #2d3e4e;
+	padding-bottom: 5rem;
+}
+.upperdiv{
+	display: flex;
+	justify-content: center;
+	background:  #1d446e;
+	padding: 0 1rem;
+}
+.upperdiv-head{
+/* 	margin: 0 1rem; */
+	padding: 1rem 1rem;
+	padding-bottom: .5rem;
+
+}
+#upperdiv-head1{
+	border-bottom: 3px solid #F05538;
+}
+.upperdiv-head a{
+	text-decoration: none;
+	color: #fff;
+    font-weight: 700;
+}
+.middlediv{
+	display: flex;
+	justify-content: space-around;
+	background:  #1d446e;
+	padding: 2rem 0;
+	padding-top: 3rem;
+	border-top: 1px solid #fff;
+	margin-top: -2px;
+}
+.middlediv-menu{
+   display: flex;
+   flex-direction: column;
+}
+.middlediv-menu a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	padding: .25rem 0;
+}
+.lowerdiv{
+    display: flex;
+	justify-content: space-between;
+	padding: 2rem 3.75rem;
+}
+.lowerdiv-div{
+	display: flex;
+}
+.lowerdiv-menu{
+	display: flex;
+    flex-direction: column;
+}
+.lowerdiv-menu a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	padding: .25rem 0;
+}
+#lower-menu2{
+	padding-left: 4.75rem;
+}
+#lower-menu3{
+	padding-right: 11.5rem;
+}
+.menu-head{
+	font-weight: 900;	
+}
+.mail{
+	display: flex;
+	margin-top: .5rem;
+}
+.mail input{
+	width: 18rem;
+	height: 38px;
+	padding: .5rem 1rem;
+	outline: none;
+}
+.mail button{
+	width: 5rem;
+	height: 38px;
+	background: #F05538;
+	color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 800;
+    padding: .5rem .5rem;
+    margin-left: -1px;
+}
